@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FA13AC5B29127C86009E7AC1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13AC5A29127C86009E7AC1 /* NetworkManager.swift */; };
+		FA13AC5D2912869C009E7AC1 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13AC5C2912869C009E7AC1 /* APError.swift */; };
+		FA13AC6129129168009E7AC1 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13AC6029129168009E7AC1 /* AppetizerListViewModel.swift */; };
 		FA81ADB5291173FF008CA1EF /* Food_DeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81ADB4291173FF008CA1EF /* Food_DeliveryApp.swift */; };
 		FA81ADB7291173FF008CA1EF /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81ADB6291173FF008CA1EF /* AppetizerTabView.swift */; };
 		FA81ADB929117401008CA1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA81ADB829117401008CA1EF /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		FA13AC5A29127C86009E7AC1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA13AC5C2912869C009E7AC1 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		FA13AC6029129168009E7AC1 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		FA81ADB1291173FF008CA1EF /* Food Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA81ADB4291173FF008CA1EF /* Food_DeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_DeliveryApp.swift; sourceTree = "<group>"; };
 		FA81ADB6291173FF008CA1EF /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -69,7 +73,9 @@
 				FA81ADB829117401008CA1EF /* Assets.xcassets */,
 				FA81ADBA29117401008CA1EF /* Preview Content */,
 				FA81ADC2291175C3008CA1EF /* AppetizerListView.swift */,
+				FA13AC6029129168009E7AC1 /* AppetizerListViewModel.swift */,
 				FA13AC5A29127C86009E7AC1 /* NetworkManager.swift */,
+				FA13AC5C2912869C009E7AC1 /* APError.swift */,
 				FA81ADC4291175E3008CA1EF /* AccountView.swift */,
 				FA81ADC6291175EF008CA1EF /* OrderView.swift */,
 				FA81ADCA2911B62F008CA1EF /* AppetizerRowView.swift */,
@@ -156,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA81ADC92911AFA6008CA1EF /* Appetizer.swift in Sources */,
+				FA13AC5D2912869C009E7AC1 /* APError.swift in Sources */,
 				FA81ADC5291175E3008CA1EF /* AccountView.swift in Sources */,
+				FA13AC6129129168009E7AC1 /* AppetizerListViewModel.swift in Sources */,
 				FA81ADB7291173FF008CA1EF /* AppetizerTabView.swift in Sources */,
 				FA81ADCB2911B62F008CA1EF /* AppetizerRowView.swift in Sources */,
 				FA13AC5B29127C86009E7AC1 /* NetworkManager.swift in Sources */,
