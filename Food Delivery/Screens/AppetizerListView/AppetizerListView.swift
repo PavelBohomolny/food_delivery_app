@@ -10,18 +10,24 @@ import SwiftUI
 struct AppetizerListView: View {
     
     @StateObject var viewModel = AppetizerListViewModel()
-        
+    
     var body: some View {
         
-        NavigationStack {
-            
-            List(viewModel.appetizers) { appetizer in
-                AppetizerRowView(appetizer: appetizer)
+        ZStack {            
+            NavigationStack {
+                
+                List(viewModel.appetizers) { appetizer in
+                    AppetizerRowView(appetizer: appetizer)
+                }
+                .navigationTitle("Appetizers")
             }
-            .navigationTitle("Appetizers")
-        }
-        .onAppear {
-            viewModel.getAppetizers()
+            .onAppear {
+                viewModel.getAppetizers()
+            }
+            
+            if viewModel.isLoading {
+                LoadingView()
+            }
         }
         .alert(item: $viewModel.alertItem) { alertItem in
             Alert(title: alertItem.title,
