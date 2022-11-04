@@ -13,7 +13,8 @@ struct AppetizerListView: View {
     
     var body: some View {
         
-        ZStack {            
+        ZStack {
+            
             NavigationStack {
                 
                 List(viewModel.appetizers) { appetizer in
