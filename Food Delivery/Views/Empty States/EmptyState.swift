@@ -16,7 +16,7 @@ struct EmptyState: View {
         
         ZStack {
             Color(.systemBackground)
-                .edgesIgnoringSafeArea(.all)
+                .ignoresSafeArea()
             
             VStack {
                 Image(imageName)
@@ -31,6 +31,7 @@ struct EmptyState: View {
                     .foregroundColor(.secondary)
                     .padding()
             }
+            .offset(y: -50)
         }
     }
 }
