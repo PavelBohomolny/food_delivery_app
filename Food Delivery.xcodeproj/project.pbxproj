@@ -20,6 +20,7 @@
 		FA13AC7F2915303E009E7AC1 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13AC7E2915303E009E7AC1 /* AccountViewModel.swift */; };
 		FA13AC8129153417009E7AC1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13AC8029153417009E7AC1 /* String+Extension.swift */; };
 		FA13AC8329153F6C009E7AC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13AC8229153F6B009E7AC1 /* User.swift */; };
+		FA13AC86291A988E009E7AC1 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13AC85291A988E009E7AC1 /* EmptyState.swift */; };
 		FA81ADB5291173FF008CA1EF /* Food_DeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81ADB4291173FF008CA1EF /* Food_DeliveryApp.swift */; };
 		FA81ADB7291173FF008CA1EF /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81ADB6291173FF008CA1EF /* AppetizerTabView.swift */; };
 		FA81ADB929117401008CA1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA81ADB829117401008CA1EF /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		FA13AC7E2915303E009E7AC1 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		FA13AC8029153417009E7AC1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		FA13AC8229153F6B009E7AC1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA13AC85291A988E009E7AC1 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		FA81ADB1291173FF008CA1EF /* Food Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA81ADB4291173FF008CA1EF /* Food_DeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_DeliveryApp.swift; sourceTree = "<group>"; };
 		FA81ADB6291173FF008CA1EF /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		FA13AC732913E8CC009E7AC1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FA13AC84291A9870009E7AC1 /* Empty States */,
 				FA13AC7929141DFA009E7AC1 /* Buttons */,
 				FA13AC762913E8FF009E7AC1 /* Image */,
 				FA13AC752913E8F1009E7AC1 /* Cells */,
@@ -193,6 +196,14 @@
 				FA13AC7C29141F33009E7AC1 /* XDismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		FA13AC84291A9870009E7AC1 /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				FA13AC85291A988E009E7AC1 /* EmptyState.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 		FA81ADA8291173FF008CA1EF = {
@@ -318,6 +329,7 @@
 				FA13AC5B29127C86009E7AC1 /* NetworkManager.swift in Sources */,
 				FA81ADB5291173FF008CA1EF /* Food_DeliveryApp.swift in Sources */,
 				FA13AC692913DFD3009E7AC1 /* RemoteImage.swift in Sources */,
+				FA13AC86291A988E009E7AC1 /* EmptyState.swift in Sources */,
 				FA13AC782913EBDC009E7AC1 /* AppetizerDetailView.swift in Sources */,
 				FA13AC6329129626009E7AC1 /* Alert.swift in Sources */,
 				FA81ADC3291175C3008CA1EF /* AppetizerListView.swift in Sources */,
